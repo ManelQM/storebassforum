@@ -2,7 +2,7 @@
 
  const db = () => {
     try{
-      const connect = mongoose.connect ('mongodb://127.0.0.1:27017/');
+      const connect = mongoose.connect ("mongodb://127.0.0.1:27017/storebass");
       console.log ("Welcome to your DB, connected successfully!"); 
     } catch (error) {
       console.log ("Something is wrong, not connected");
